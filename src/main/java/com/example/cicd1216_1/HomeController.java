@@ -9,4 +9,9 @@ public class HomeController {
     public String hicicd() {
         return "hi, CICD 1216^^";
     }
+
+    @GetMapping("/hicicd2")
+    public String hicicd2() {
+        return "hi2, New CICD 1216^^";
+    }
 }
